@@ -147,3 +147,124 @@
     font-weight: 500;/* Товщина шрифту 500*/
     line-height: normal;/* Звичайна висота рядка тексту */
   }
+
+
+  .service-title {
+    display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+    justify-content: center;/* Горизонтальне вирівнювання елементів в центрі */
+  
+    color: white;/* Встановіть колір тексту white */
+    font-size: 42px;/* Розмір шрифту 42px */
+    font-weight: 700;/* Товщина шрифту 700*/
+    line-height: normal;/* Міжрядковий інтервал normal */
+    padding-bottom: 32px;/* Зовнішній відступ знизу 32px */
+  }
+  
+  .service-text {
+    display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+    justify-content: center;/* Горизонтальне вирівнювання елементів в центрі */
+  }
+  
+  .service-article {
+    text-align: center;/* Вирівняйте текст статті по центру */
+    color: white;/* Встановіть колір тексту white */
+    font-size: 16px;/* Розмір шрифту 16px */
+    font-weight: 400;/* Товщина шрифту 400*/
+    line-height: 26px;/* Міжрядковий інтервал 26px */
+    padding-bottom: 40px;/* Зовнішній відступ знизу 40px */
+  }
+  
+  .service-items {
+    display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+    justify-content: center;/* Горизонтальне вирівнювання елементів в центрі */
+    gap: 30px;/* Встановіть проміжок між елементами 30px не через margin ta padding */
+  }
+  
+  .service-item {
+    display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+    flex-direction: column;/* Розташовуйте дочірні елементи в стовпчик */
+    align-items: center;/* Вирівнюйте елементи по центру по вертикалі */
+    justify-content: center;/* Вирівнюйте елементи по центру по горизонталі */
+  
+    /* Закруглення кутів 34px (border)*/
+    border: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
+    background: linear-gradient(
+      268deg,
+      rgba(254, 254, 255, 0.03) -11.04%,
+      rgba(255, 255, 255, 0.02) 104.89%
+    );
+  
+    /* Shadow  */
+    box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+    /* Внутрішній відступ 20px ta 40 px*/
+  }
+  
+  .service-item-icon {
+    margin: 18px; /* Зовнішній відступ 18px */
+  }
+  
+  .service-item-title {
+    margin: 18px;/* Зовнішній відступ 18px */
+    color: #f9fafb;/* Встановіть колір тексту white */
+    font-size: 24px;/* Розмір шрифту 24px */
+    font-weight: 500;/* Товщина шрифту 500*/
+    line-height: normal;/* Міжрядковий інтервал normal */
+  }
+  
+  .service-item-article {
+    margin-bottom: 24px; /* Зовнішній відступ снизу 24px */
+    color: white;/* Встановіть колір тексту white */
+    font-size: 16px;/* Розмір шрифту 16px */
+    font-weight: 400;/* Товщина шрифту 400*/
+    line-height: 26px;/* Міжрядковий інтервал 26px */
+    text-align: left;/* Вирівнюйте текст по лівому краю (text-align)*/
+  }
+  
+  .service-item-link {
+    display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+    /* Відмініть оформлення підкреслення для посилання */
+  }
+  
+  .service-item-link span {
+    color: white;/* Встановіть колір тексту white */
+    margin-right: 8px;/* Зовнішній відступ справа 8px */
+  }
+
+
+
+  /*Information*/
+
+.information {
+  display: flex;/* Відображення flex. Додайте flex container. Це робить його гнучким. */
+  flex-direction: column;/* Встановлюємо напрямок, у якому елементи розміщатимуться в колонку */
+  gap: 100px;/* Встановлюємо відстань між елементами 100px. Використовуємо властивисть, яка відкривається завдяки flex */
+}
+
+.information-2 {
+  display: flex;/* Відображення flex. Додайте flex container. Це робить його гнучким. */
+  justify-content: center;/* Вирівнюємо елементи горизонтально по центру */
+  align-items: center;/* Вирівнюємо елементи вертикально по центру */
+}
+
+.information-3 {
+  display: flex;/* Відображення flex. Додайте flex container. Це робить його гнучким. */
+  flex-direction: row-reverse;/* Встановлюємо напрямок, у якому елементи розміщатимуться в ряду у зворотному порядку */
+  justify-content: center;/* Вирівнюємо елементи горизонтально по центру */
+  align-items: center;/* Вирівнюємо елементи вертикально по центру */
+}
+
+.inform-item {
+  height: 582px;/* Встановлюємо ширину елементів в 582px */
+}
+
+.inform-title {
+  font-weight: 700;/* Задаємо жирність тексту заголовка якого значення 700*/
+  font-size: 42px;/* Задаємо розмір шрифту заголовка якого значення 42px */
+  color: white;/* Задаємо колір тексту заголовка якого значеня буде білий колір */
+  padding-bottom: 32px;/* Задаємо внутрішний відступ знизу 32px */
+}
+
+.inform-article {
+  color: white;/* Задаємо колір тексту заголовка якого значеня буде білий колір */
+ padding: 30px;/* Задаємо внутрішний відступ знизу 30px */
+}
